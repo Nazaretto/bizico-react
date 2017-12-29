@@ -1,0 +1,2 @@
+# bizico-react
+Training project
