@@ -1,0 +1,24 @@
+{
+  "name": "bizico-react",
+  "version": "1.0.0",
+  "description": "descr",
+  "main": "index.js",
+  "repository": "https://github.com/Nazaretto/bizico-react",
+  "author": "Nazarii",
+  "license": "MIT",
+  "scripts": {
+    "prod": "webpack -p",
+    "dev": "webpack-dev-server --content-base dist --inline --hot"
+  },
+  "devDependencies": {
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react-hot-loader": "^3.1.3"
+  }
+}
