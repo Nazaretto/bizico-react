@@ -1,5 +1,24 @@
 const webpack = require('webpack');
 const path = require('path');
+
 module.exports = {
-  devtool: 'inline-source-map'
+  context: __dirname + "/source",
+  devtool: 'inline-source-map',
+  entry: "./js/client.js",
+  module: {
+    loaders: [
+      {
+        test: /\.js?$/,
+        exclude: /(node_modules|bower_components)/,
+        loader: 'babel-loader',
+        query: {
+          presets: ['react', 'es2015', 'stage-0']
+        }
+      }
+    ]
+  },
+  output: {
+    path: path.resolve(__dirname,  "source"),
+    filename: "client.min.js"
+  }
 }
