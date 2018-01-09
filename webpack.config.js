@@ -20,6 +20,10 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname,  "source"),
-    filename: "client.min.js"
+    filename: "client.min.js",
+    publicPath: '/'
+  },
+  devServer: {
+    historyApiFallback: true
   }
 }

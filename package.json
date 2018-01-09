@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "descr",
   "main": "index.js",
-  "repository": "https://github.com/Nazaretto/bizico-react",
+  "repository": "git@github.com:/Nazaretto/bizico-react.git",
   "author": "Nazarii",
   "license": "MIT",
   "scripts": {
@@ -27,7 +27,7 @@
     "react": "latest",
     "react-dom": "latest",
     "react-hot-loader": "^3.1.3",
-    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
     "redux": "^3.7.2",
     "redux-logger": "^3.0.6",
     "redux-promise-middleware": "^5.0.0",
